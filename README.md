@@ -21,7 +21,13 @@ I have gathered the positive and negative images required to train the cascade c
 
 The video below describes the theory behind the Haar feature-based cascade classifiers (Viola Jones Algorithm):
 
-<iframe width="1519" height="561" src="https://www.youtube.com/embed/uEJ71VlUmMQ" title="Detecting Faces (Viola Jones Algorithm) - Computerphile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div>
+  <iframe width="1519" height="561" src="https://www.youtube.com/embed/uEJ71VlUmMQ" 
+    title="Detecting Faces (Viola Jones Algorithm) - Computerphile" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+</div>
 
 ## Training
 
