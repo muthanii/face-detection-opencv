@@ -1,3 +1,4 @@
+import os
 import cv2
 import cv2.data
 
@@ -13,8 +14,6 @@ def get_camera():
 
     for (x, y, w, h) in faces:
       cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 5)
-      # roi_gray = gray[y:y+w, x:x+w]
-      # roi_color = frame[y:y+h, x:x+w]
     cv2.imshow('frame', frame)
 
     if cv2.waitKey(1) == ord('q'):
@@ -22,3 +21,10 @@ def get_camera():
 
   capture.release()
   cv2.destroyAllWindows()
+
+
+def generate_negative_files():
+  with open('neg.txt', 'w') as f:
+    for filename in os.listdir('dataset\\negatives'):
+      f.write(f'negative/{filename}\n')
+

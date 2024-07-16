@@ -1,0 +1,5 @@
+dataset\positives\AJ_Cook_0001.png 1 91 57 72 139
+dataset\positives\AJ_Lamas_0001.png 1 83 69 80 127
+dataset\positives\Aaron_Eckhart_0001.png 1 83 69 82 116
+dataset\positives\Aaron_Guiel_0001.png 1 81 71 84 114
+dataset\positives\Aaron_Patterson_0001.png 0
