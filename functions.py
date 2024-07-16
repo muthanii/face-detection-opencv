@@ -3,7 +3,7 @@ import cv2
 import cv2.data
 
 capture = cv2.VideoCapture(0)
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('cascade\cascade.xml')
 
 def get_camera():
   while True:
