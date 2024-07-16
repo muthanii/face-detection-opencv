@@ -24,7 +24,7 @@ The video below describes the theory behind the Haar feature-based cascade class
 [![Theory](https://i.ytimg.com/an_webp/uEJ71VlUmMQ/mqdefault_6s.webp?du=3000&sqp=CJS12LQG&rs=AOn4CLA8dtCJa9uyEQQHJpwHOnia6YDj-Q)](https://www.youtube.com/watch?v=uEJ71VlUmMQ)
 
 Below is the main idea of how everything works and why some of the files necessary are present:
-[!Overview]('media/overview.png')
+![Overview]('media/overview.png')
 
 ## Training
 
