@@ -32,7 +32,7 @@ Training is split into two datasets: positive and negative pictures. Positive pi
 
 ## Result
 
-The custom cascade classifier is not the best one out there due to the limited amount of positive images which are 100 images. More images, more annotations and more training samples whill lead to a more accurate results. The end result of my own custom cascade classifier can be seen in [result video]('results.mp4'). We have to note that although there is a lot of noise in my custom cascade classifier, but the green box that was surrounding my face was almost always there.  
+The custom cascade classifier is not the best one out there due to the limited amount of positive images which are 100 images. More images, more annotations and more training samples whill lead to a more accurate results. The end result of my own custom cascade classifier can be seen in [result video](https://github.com/muthanii/face-detection-opencv/blob/main/media/results.mp4). We have to note that although there is a lot of noise in my custom cascade classifier, but the green box that was surrounding my face was almost always there.  
 
 ## Resources
 
