@@ -5,10 +5,10 @@
 Face detection is categorized in object detection applications. For OpenCV, face detection has two main algorithms which are both regarded boosted cascade of weak classifiers or cascade classifiers for short. The main algorithms include: [LBP (Local Binary Pattern)](https://en.wikipedia.org/wiki/Local_binary_patterns) and [Haar Cascade Classifier](https://en.wikipedia.org/wiki/Haar-like_feature). Both have their strengths and weaknesses and the table below shows them.
 |Features|LBP|Haar Features|
 |--------|---|-------------|
-|Output format|Integers|Floating points|
-|Speed|Fast|Slow|
-|Accuracy|Less accurate than Haar features|More accurate than LBP|
-|Training time|Fast|Slow|
+|**Output format**|Integers|Floating points|
+|**Speed**|Fast|Slow|
+|**Accuracy**|Less accurate than Haar features|More accurate than LBP|
+|**Training time**|Fast|Slow|
 
 I will be sticking to the Haar Cascade Classifier for this project due to its accuracy. OpenCV already supplies users with their own Haar Cascade Classifier but we will be making a custom one from scratch.
 
