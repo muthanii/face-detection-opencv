@@ -1,3 +1,9 @@
-from functions import get_camera, generate_negative_files
+from functions import get_camera
 
-get_camera()
+
+def main():
+  get_camera()
+
+
+if __name__ == '__main__':
+  main()
